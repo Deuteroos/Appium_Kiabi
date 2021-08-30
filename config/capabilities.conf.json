@@ -1,0 +1,20 @@
+{
+  "local": {
+    "android": {
+      "deviceName": "Android",
+      "platformName": "Android",
+      "automationName": "UiAutomator2",
+      "appPackage": "com.carrefour.fid.android.dev",
+      "appActivity": "com.carrefour.fid.android.splash.ui.activities.SplashActivity"
+    },
+    "android_emulator": {
+      "deviceName": "Android Emulator",
+      "platformName": "Android",
+      "automationName": "UiAutomator2",
+      "appPackage": "com.carrefour.fid.android.dev",
+      "appActivity": "com.carrefour.fid.android.splash.ui.activities.SplashActivity"
+    },
+    "ios": {},
+    "ios_emulator": {}
+  }
+}
