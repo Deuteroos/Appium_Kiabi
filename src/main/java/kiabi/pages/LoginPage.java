@@ -1,4 +1,4 @@
-package carrefour.pages;
+package kiabi.pages;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;

@@ -1,8 +1,8 @@
-package carrefour.context;
+package kiabi.context;
 
-import carrefour.configurations.CapabilitiesConfigReader;
-import carrefour.configurations.PropertiesConfiguration;
-import carrefour.configurations.SystemPropertiesReader;
+import kiabi.configurations.CapabilitiesConfigReader;
+import kiabi.configurations.PropertiesConfiguration;
+import kiabi.configurations.SystemPropertiesReader;
 
 public interface Properties {
     CapabilitiesConfigReader CAPABILITIES_CONFIG = CapabilitiesConfigReader.getInstance();

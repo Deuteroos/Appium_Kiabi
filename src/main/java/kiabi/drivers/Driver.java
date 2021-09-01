@@ -1,4 +1,4 @@
-package carrefour.drivers;
+package kiabi.drivers;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;

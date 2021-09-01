@@ -1,4 +1,4 @@
-package carrefour.server;
+package kiabi.server;
 
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 import java.net.ServerSocket;
 
-import static carrefour.context.Properties.FILE_PROPERTIES;
+import static kiabi.context.Properties.FILE_PROPERTIES;
 
 public class AppiumServer {
 

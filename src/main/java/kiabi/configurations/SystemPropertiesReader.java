@@ -1,4 +1,4 @@
-package carrefour.configurations;
+package kiabi.configurations;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

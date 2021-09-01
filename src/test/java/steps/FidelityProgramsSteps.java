@@ -1,6 +1,6 @@
 package steps;
 
-import carrefour.pages.FidelityProgramsPage;
+import kiabi.pages.FidelityProgramsPage;
 import io.cucumber.java.en.And;
 
 public class FidelityProgramsSteps {

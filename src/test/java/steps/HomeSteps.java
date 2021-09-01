@@ -1,6 +1,6 @@
 package steps;
 
-import carrefour.pages.HomePage;
+import kiabi.pages.HomePage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;

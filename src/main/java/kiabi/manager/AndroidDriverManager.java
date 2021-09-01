@@ -1,11 +1,11 @@
-package carrefour.manager;
+package kiabi.manager;
 
-import carrefour.drivers.Driver;
-import carrefour.drivers.DriverFactory;
+import kiabi.drivers.Driver;
+import kiabi.drivers.DriverFactory;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 
-import static carrefour.context.Properties.SYSTEM_PROPERTIES;
+import static kiabi.context.Properties.SYSTEM_PROPERTIES;
 
 public class AndroidDriverManager {
 

@@ -1,6 +1,6 @@
-package carrefour.pages;
+package kiabi.pages;
 
-import carrefour.manager.AndroidDriverManager;
+import kiabi.manager.AndroidDriverManager;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
@@ -85,7 +85,7 @@ public class Utils {
     }
 
     protected void click(MobileElement elem) {
-        longWaitUntil(elementToBeClickable(elem));
+        loadingWaitUntil(elementToBeClickable(elem));
         elem.click();
     }
 

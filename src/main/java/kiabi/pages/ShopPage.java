@@ -1,7 +1,4 @@
-package carrefour.pages;
-
-import io.appium.java_client.MobileElement;
-import io.appium.java_client.pagefactory.AndroidFindBy;
+package kiabi.pages;
 
 public class ShopPage extends Utils {
 

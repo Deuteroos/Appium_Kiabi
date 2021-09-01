@@ -1,3 +1,4 @@
+@all
 Feature: Basket feature
 
   @sanity2

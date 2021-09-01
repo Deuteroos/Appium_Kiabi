@@ -1,4 +1,4 @@
-package carrefour.drivers;
+package kiabi.drivers;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
@@ -10,7 +10,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import static carrefour.context.Properties.*;
+import static kiabi.context.Properties.*;
 
 public class LocalDriver implements Driver {
 

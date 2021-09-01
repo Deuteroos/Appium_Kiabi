@@ -1,8 +1,8 @@
 package steps;
 
-import carrefour.pages.Cookies;
-import carrefour.pages.HomePage;
-import carrefour.pages.SearchPage;
+import kiabi.pages.Cookies;
+import kiabi.pages.HomePage;
+import kiabi.pages.SearchPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

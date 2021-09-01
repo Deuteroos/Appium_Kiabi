@@ -1,6 +1,6 @@
 package steps;
 
-import carrefour.pages.Cookies;
+import kiabi.pages.Cookies;
 import io.cucumber.java.en.And;
 
 public class CookiesSteps {

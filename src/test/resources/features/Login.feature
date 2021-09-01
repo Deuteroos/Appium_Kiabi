@@ -1,3 +1,4 @@
+@all
 Feature: Login feature
 
   @sanity

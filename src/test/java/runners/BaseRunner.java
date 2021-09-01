@@ -1,7 +1,7 @@
 package runners;
 
-import carrefour.manager.AndroidDriverManager;
-import carrefour.server.AppiumServer;
+import kiabi.manager.AndroidDriverManager;
+import kiabi.server.AppiumServer;
 import io.cucumber.java.After;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.qameta.allure.Allure;
@@ -13,7 +13,7 @@ import org.testng.annotations.*;
 
 import java.io.ByteArrayInputStream;
 
-import static carrefour.context.Properties.SYSTEM_PROPERTIES;
+import static kiabi.context.Properties.SYSTEM_PROPERTIES;
 
 public class BaseRunner extends AbstractTestNGCucumberTests {
 
@@ -36,7 +36,7 @@ public class BaseRunner extends AbstractTestNGCucumberTests {
 
     @After
     public void ITestResults(ITestResult result) {
-        if (result.getStatus() == ITestResult.FAILURE) {
+        if (result.getStatus() == ITestResult.FAILURE || result.getStatus() == ITestResult.SKIP) {
             BaseRunner.saveScreenShotPNG();
         }
     }

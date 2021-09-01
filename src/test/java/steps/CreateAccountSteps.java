@@ -1,6 +1,6 @@
 package steps;
 
-import carrefour.pages.CreateAccountPage;
+import kiabi.pages.CreateAccountPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
 
