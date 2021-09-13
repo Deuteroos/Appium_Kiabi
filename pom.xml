@@ -131,6 +131,17 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.11.4</version>
         </dependency>
+        <dependency>
+            <groupId>net.oneandone.reflections8</groupId>
+            <artifactId>reflections8</artifactId>
+            <version>0.11.7</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.18</version>
+        </dependency>
     </dependencies>
     
 </project>

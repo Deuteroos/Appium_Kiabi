@@ -1,10 +1,17 @@
 package steps;
 
+import ZenityAutomation.AutomationModule;
+import ZenityAutomation.ModuleParameters;
+import ZenityAutomation.ModulesConnections;
+import io.cucumber.datatable.DataTable;
 import kiabi.pages.*;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
+
+import java.util.List;
+import java.util.Map;
 
 public class LoginSteps {
 
@@ -24,6 +31,17 @@ public class LoginSteps {
     @And("^I click on the email input")
     public static void I_click_on_the_email_input() {
         loginPage.clickOnEmailInput();
+    }
+
+
+    @AutomationModule(inputs = {"user"}, moduleName = "I fill the Login Form:", moduleDescription = "Permet de remplir le formulaire de connexion", category = "2. Connexion", outputs = {"user"}, parameters = {
+            @ModuleParameters(type = ModuleParameters.paramType.STRING, label = "email", drivenBy = ModulesConnections.USER),
+            @ModuleParameters(type = ModuleParameters.paramType.STRING, label = "password", drivenBy = ModulesConnections.USER),
+    })
+    @And("^I fill the Login Form:$")
+    public static void I_fill_the_login_form(DataTable dt) {
+        List<Map<String, String>> credential = dt.asMaps();
+        loginPage.writeCredential(credential.get(0).get("email"), credential.get(0).get("password"));
     }
 
     @And("^I will use credential \"([^\"]*)\" and password \"([^\"]*)\"$")
