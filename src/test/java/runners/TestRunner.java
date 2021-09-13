@@ -8,8 +8,8 @@ import io.cucumber.testng.CucumberOptions;
         tags = "@sanity3",
         plugin = {
                 "pretty",
-                "json:target/cucumber-reports/Cucumber.json",
-                "io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm"
+                "io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm",
+                "json:target/cucumber-reports/Cucumber.json"
         }
 )
 public class TestRunner extends BaseRunner{
