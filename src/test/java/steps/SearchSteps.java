@@ -43,7 +43,7 @@ public class SearchSteps {
     public static void I_fill_the_search_with_product_named(DataTable dt) {
         List<Map<String, String>> credential = dt.asMaps();
         searchPage.clickOnSearchInput();
-        searchPage.writeSearchInput(credential.get(0).get("searchName"));
+        searchPage.writeSearchInput(credential.get(0).get("search"));
     }
 
     @And("^I go to the basket page$")
